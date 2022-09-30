@@ -11,8 +11,8 @@ docker_builder:
   env:
     IMAGE_NAME: fnichol/nginx-tcp-lb
     # yamllint disable rule:line-length
-    DOCKER_USERNAME: ENCRYPTED[TODO]
-    DOCKER_PASSWORD: ENCRYPTED[TODO]
+    DOCKER_USERNAME: ENCRYPTED[30d1253e0d130083c684441a0949c515ffc41f156260239cbce27409bb5cac65d48b3387bc720ae3fd1b4a0afc06b847]
+    DOCKER_PASSWORD: ENCRYPTED[55886438b9605100011b40d15be7b76f415892e593e0e2c80f844b91a07633d4ce1af5447e06c809732f64e964db3074]
     # yamllint enable rule:line-length
   build_script: make build
   login_script: >
